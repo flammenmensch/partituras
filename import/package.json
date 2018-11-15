@@ -1,0 +1,20 @@
+{
+  "name": "partituras-import-scripts",
+  "version": "1.0.0",
+  "description": "Data import scripts for partituras project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [
+    "partituras"
+  ],
+  "author": "Flammenmensch <maleventum@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "dotenv": "^6.1.0",
+    "mongoose": "^5.3.12",
+    "puppeteer": "^1.10.0"
+  }
+}
